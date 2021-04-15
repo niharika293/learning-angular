@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
+#**Ideology behind CodeialAngular**
+-Makes a user familiar with the basic code stucture used in angular apps.
+-Steps:
+1. Set-up Angular-Cli.
+2. Changes in default files.
+3. Create a component (postComponent) & service (postService).
+4. Service will interact with the Posts-API, fetch the posts & users & communicate the result to the component.
+5. The component will show the result obtained from the service.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
