@@ -1,1 +1,11 @@
-<p>posts-list works!</p>
+<!-- <p>
+    post list works!
+</p> -->
+<!-- Show list of posts in HTML. -->
+<!-- ngFor : for loop in angular. -->
+<ul class="postItem">
+    <li class="post-item" *ngFor= "let post of posts">
+        <span class="pcontent">{{ post.content }}</span>
+        <span class="author">{{ post.user.name }}</span>
+    </li>
+</ul>

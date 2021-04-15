@@ -13,7 +13,7 @@ export class PostsListService {
   // Observable acts as a service. Many components can request data fro the observable.
   constructor(private http : HttpClient) { }
 
-  // () to fetch the posts.
+  // () to fetch the posts from the posts api in codeial project.
   getPosts() : Observable<any>{
     return this.http.get<any>('http://localhost:8000/api/v1/posts');
   }
